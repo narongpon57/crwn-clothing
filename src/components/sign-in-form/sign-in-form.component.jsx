@@ -18,6 +18,8 @@ const SignInForm = () => {
   const [formFields, setFormFields] = useState(defaultFormField)
   const { email, password } = formFields
 
+
+
   const resetFormFields = () => {
     setFormFields(defaultFormField)
   }
